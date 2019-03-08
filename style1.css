@@ -1,0 +1,88 @@
+body {
+	background-image: url("moonscape.png");
+	background-size: 100% 100%;
+	display: block;
+	height: 100vh;
+	width: 100vw;
+}
+.invisible {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.purple {
+	height: 70%;
+	width: 100%;
+}
+
+.blue {
+	opacity: 0.50;
+	height: 30%;
+	width: 100%;
+	display: flex;
+}
+
+.pink {
+	height: 25%;
+	width: 100%;
+	display: flex;
+}
+
+.orange {
+	position: relative;
+	opacity: 100;
+	width: 50%;
+	height:100%;
+	display: block;
+}
+
+.brown {
+	cursor: pointer;
+	height: 100%;
+	width: calc(50%/3);
+}
+
+.progressBar {
+	background-color: #6094a3;
+}
+
+.restrict-img-size1 {
+	animation: mymove 4s infinite;
+	position: relative;
+}
+
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 100px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100px;}
+}
+
+.black {
+	cursor: pointer;
+	width: calc(100%/6);
+	height: 100%;
+	background-color: #4B484F;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 75%;
+	max-width: 75%;
+}
+
+.location {
+	visibility: hidden;
+}

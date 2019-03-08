@@ -1,0 +1,51 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Escape Room</title>
+		<link rel="stylesheet" href="style1.css" />
+	</head>
+	
+	<body>
+		<div class="row">
+			<div class="purple">
+				<div class="pink center-content">
+					<div class="brown"><img src ="questionmark.png" id="location1"  class="restrict-img-size" onclick="code1(this)"/>
+					</div>
+					<div class="brown"><img src ="questionmark.png" id="location2" class="restrict-img-size" onclick="code2(this)"/>
+					</div>
+					<div class="brown"><img src ="questionmark.png" id="location3"  class="restrict-img-size" onclick="code3(this)"/>
+					</div>
+					<div class="orange center-content">
+					<img src="spaceship1.png" class="restrict-img-size1" onclick ="checkImages()"/> 
+		<progress value="0" max="40" id="progressBar"></progress>
+						</div>  
+					</div>
+			</div>
+			</div>
+			
+		<div class="blue">
+			<div class="black center-content">
+				<img src="pic1.jpg"  class="restrict-img-size" id="pic1" onclick="nextImage(this)"/>
+			</div>
+			<div class="black  center-content">
+			<img src="pic2.jpg" class="restrict-img-size" id="pic2" onclick="nextImage1(this)"/>
+			</div>
+			<div class="black  center-content">
+			<img src="pic3.jpg" class="restrict-img-size" id="pic3" onclick="nextImage2(this)"/>
+			</div>
+			<div class="black  center-content">
+			<img src="pic4.jpg" class="restrict-img-size" id="pic4" onclick="nextImage3(this)"/>
+			</div>
+			<div class="black  center-content">
+			<img src="pic5.jpg" class="restrict-img-size" id="pic5" onclick="nextImage4(this)"/>
+			</div>
+			<div class="black  center-content">
+			<img src="pic6.jpg" class="restrict-img-size"id="pic6" onclick="nextImage5(this)"/>
+			</div>
+		</div>
+		<audio src="Scanner.mp3" type="audio/mp3" id="there-found"></audio>
+		<script src="script1.js"></script>
+	</body>
+</html>
