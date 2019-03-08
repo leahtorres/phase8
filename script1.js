@@ -206,6 +206,7 @@ var downloadTimer = setInterval(function(){
   if(timeleft <= 0)
     clearInterval(downloadTimer);
 }, 1000);
+	setTimeout(function(){ alert("you ran out of time!!"); }, 41000);
 
 
 function playSound() {
