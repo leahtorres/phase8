@@ -177,7 +177,7 @@ function code2(el){
 		 el.src = "nine.jpg";
 		
 	} else if (el.src.match("nine.jpg")){
-		el.src = ".jpg";
+		el.src = "questionmark.png";
 		// do nothing
 	}
 }
@@ -206,7 +206,8 @@ var downloadTimer = setInterval(function(){
   if(timeleft <= 0)
     clearInterval(downloadTimer);
 }, 1000);
-	setTimeout(function(){ alert("you ran out of time!!"); }, 41000);
+	setTimeout(function(){ alert("You ran out of time!!"); }, 41000);
+	
 
 
 function playSound() {
