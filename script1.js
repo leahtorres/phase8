@@ -1,6 +1,7 @@
 a = document.getElementById('location1');
 b = document.getElementById('location2');
 c = document.getElementById('location3');
+d = document.getElementById('spaceship');
 var mySound = document.getElementById('there-found');
 
 
@@ -214,14 +215,16 @@ function playSound() {
 	 //it will play the sound when the image is clicked. 
 }
 
-function checkImages(){
+function checkImages(el){
 	console.log("running check images");
 	if (a.src.match("seven.jpg") && b.src.match("nine.jpg") && c.src.match("one.jpg")){
 		mySound.play();
-		console.log("Matched images");
+			console.log("Matched images");
+			document.location.href= "https://dreblu.github.io/Escape-room-updated/";
 	} else { 
 	console.log("images don't match");
 	//do nothing 
 	}
 }
+
 
