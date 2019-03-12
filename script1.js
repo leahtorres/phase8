@@ -203,11 +203,11 @@ var timeleft = 40;
 var downloadTimer = setInterval(function(){
   document.getElementById("progressBar").value = 40 - timeleft;
   timeleft -= 1;
-  if(timeleft <= 0)
+  if(timeleft <= 0) 
     clearInterval(downloadTimer);
 }, 1000);
 	setTimeout(function(){ alert("You ran out of time!!"); }, 41000);
-
+	location.reload();
 
 function playSound() {
 	 document.getElementById('there-found').play();
