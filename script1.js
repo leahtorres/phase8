@@ -220,7 +220,7 @@ function checkImages(el){
 	if (a.src.match("seven.jpg") && b.src.match("nine.jpg") && c.src.match("one.jpg")){
 		mySound.play();
 			console.log("Matched images");
-			document.location.href= "https://dreblu.github.io/Escape-room-updated/";
+			document.location.href= "https://dreblu.github.io/Final-Escape-Room/";
 	} else { 
 	console.log("images don't match");
 	//do nothing 
