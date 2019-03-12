@@ -206,8 +206,8 @@ var downloadTimer = setInterval(function(){
   if(timeleft <= 0) 
     clearInterval(downloadTimer);
 }, 1000);
-	setTimeout(function(){ alert("You ran out of time!!"); }, 41000);
-	location.reload();
+	setTimeout(function(){ alert("You ran out of time!!"); location.reload(); }, 41000);
+	
 
 function playSound() {
 	 document.getElementById('there-found').play();
