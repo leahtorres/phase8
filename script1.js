@@ -207,7 +207,7 @@ var downloadTimer = setInterval(function(){
     clearInterval(downloadTimer);
 }, 1000);
 	setTimeout(function(){ alert("You ran out of time!!"); }, 41000);
-		window.location.reload(true);
+		//window.location.reload(true);
 	
 
 
