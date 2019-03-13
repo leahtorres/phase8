@@ -217,7 +217,7 @@ function playSound() {
 
 function checkImages(el){
 	console.log("running check images");
-	if (a.src.match("seven.jpg") && b.src.match("nine.jpg") && c.src.match("one.jpg")){
+	if (a.src.match("one.jpg") && b.src.match("seven.jpg") && c.src.match("nine.jpg")){
 		mySound.play();
 			console.log("Matched images");
 			document.location.href= "https://dreblu.github.io/Final-Escape-Room/";
