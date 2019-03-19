@@ -5,8 +5,8 @@ body {
 	height: 100vh;
 	width: 100vw;
 }
-<!--the following color ids listed below are giving a size to each div and position(flex or block).-->
-<!--some color divs have the opacity because I wanted it to be a little transparent so the main focus could be the lunar landscape.-->
+/*the following color ids listed below are giving a size to each div and position(flex or block).*/
+/*some color divs have the opacity because I wanted it to be a little transparent so the main focus could be the lunar landscape.*/
 
 .purple {
 	height: 70%;
@@ -39,7 +39,7 @@ body {
 	height: 100%;
 	width: calc(50%/3);
 }
-<!--I used the progress bar id name and added a color so it shows how it is keeping track of the time.--> 
+/*I used the progress bar id name and added a color so it shows how it is keeping track of the time.*/
 .progressBar {
 	background-color: #6094a3;
 }
@@ -49,8 +49,8 @@ body {
 	position: relative;
 }
 
-<!--this was the css for the progress bar that moved to the right from the left as it calculated the time.-->
-<!--This two pieces of code indicated the position and movement distance(calcuated in pixels).--> 
+/*this was the css for the progress bar that moved to the right from the left as it calculated the time.*/
+/*This two pieces of code indicated the position and movement distance(calcuated in pixels).*/
 @-webkit-keyframes mymove {
   from {left: 0px;}
   to {left: 100px;}
@@ -61,7 +61,7 @@ body {
   to {left: 100px;}
 }
 
-<!--I changed the cursor as telling the user that they should click on something. I addded it to the div itself.--> 
+/*I changed the cursor as telling the user that they should click on something. I addded it to the div itself.*/
 .black {
 	cursor: pointer;
 	width: calc(100%/6);
@@ -69,7 +69,7 @@ body {
 	background-color: #4B484F;
 }
 
-<!--this is how the images are centered and they are all the same size(photoshop too).-->
+/*this is how the images are centered and they are all the same size(photoshop too).*/
 .center-content {
 	display: flex;
 	align-items: center;
